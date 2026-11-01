@@ -1,0 +1,17 @@
+# Private assessment and environment material
+.env
+.env.*
+*.log
+*.sql
+*.har
+*.pcap
+*.pcapng
+*.burp
+*.vdi
+*.vmdk
+*.ova
+*.docx
+private/
+DVWA/
+.DS_Store
+Thumbs.db
