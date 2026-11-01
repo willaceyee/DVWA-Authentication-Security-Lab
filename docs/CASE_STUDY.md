@@ -26,7 +26,7 @@ This describes the reported workflow. It is not a script for targeting an arbitr
 | Evidence | Observation | What it supports |
 | --- | --- | --- |
 | Report Figure 60 | The module displays an unsuccessful login message | Baseline failure behavior in the training module |
-| Report Figures 64–68 | The report describes password-parameter variation and response comparison in Burp | The recorded assessment method; raw requests are not redistributed here |
+| Report Figures 64–68 | The gallery shows password-parameter variation and response comparison in Burp | The recorded assessment method; visible cookie headers are redacted and raw session exports are excluded |
 | Report Figure 69 | The module displays its protected-area welcome message | A successful lab credential match |
 | Report narrative | Successive attempts were processed without observed delay or lockout | No effective throttling or lockout was demonstrated during the sampled sequence |
 

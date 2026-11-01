@@ -45,6 +45,6 @@ The recommendations are documented, not implemented or verified in this reposito
 
 All reported activity concerns an intentionally vulnerable training application in an authorized local lab. DVWA is third-party software, not an application I authored. The wider group report also covered other vulnerabilities and a proposed secure network; those are distinguished from my individual work in [CONTRIBUTIONS.md](CONTRIBUTIONS.md).
 
-This repository contains a public case study and selected report evidence. It does not contain the original group report, student identifiers, VM disks, database dumps, raw proxy sessions, or a new automated attack tool. The original VM and Burp project files were not supplied, so the historical experiment has not been rerun during portfolio preparation.
+This repository contains a public case study and [19 report screenshots](docs/EVIDENCE.md) covering environment setup and authentication testing. It does not contain the original group report, student identifiers, VM disks, database dumps, raw proxy sessions, or a new automated attack tool. The original VM and Burp project files were not supplied, so the historical experiment has not been rerun during portfolio preparation.
 
 Maintained by [Willace Yee](https://github.com/willaceyee). See [attribution and references](ATTRIBUTION.md).

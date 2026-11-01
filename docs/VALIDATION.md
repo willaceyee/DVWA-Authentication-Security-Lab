@@ -3,7 +3,7 @@
 Prepared on 1 November 2026 from the user-supplied assignment report.
 
 - Contribution wording updated using Willace Yee's clarification that he completed the full Part 1 environment setup and brute-force assessment. Individual authorship was not independently verified from screenshots.
-- Three selected PNGs visually reviewed and extracted without editing from Figures 1, 60, and 69.
+- Nineteen PNGs visually reviewed: Figures 1-9 and 60-69. Seventeen match the extracted source files byte for byte. Figures 64 and 65 have solid black cookie-header redactions; pixel comparison confirmed no changes outside those rectangles.
 - Public text checked for the six student identifiers listed in the report; none included.
 - Local Markdown links and image paths resolve.
 - Current DVWA setup and reference URLs checked against primary upstream documentation.

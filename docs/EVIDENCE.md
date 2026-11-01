@@ -1,31 +1,95 @@
 # Evidence register
 
-The images below were extracted unchanged from the user-supplied NET3034 group assignment report. They are historical lab evidence, not captures from a newly recreated environment. The report's cover sheet and full document are not redistributed.
+This gallery contains **19 historical screenshots** from the supplied NET3034 report: setup Figures 1-9 and authentication Figures 60-69. They are historical evidence, not a new test run. Seventeen images are unchanged. In Figures 64 and 65, the cookie header lines are covered with solid black boxes; all pixels outside those boxes are unchanged.
 
-| File | Original figure | Meaning |
-| --- | --- | --- |
-| [Docker version](evidence/docker-version.png) | Figure 1 | Docker 28.2.2 on an Ubuntu environment |
-| [Failed login](evidence/failed-login.png) | Figure 60 | DVWA Brute Force module showing a failed test login |
-| [Successful login](evidence/successful-login.png) | Figure 69 | DVWA protected-area message following a successful test login |
+Captions describe the visible content. Some original report captions differ: Figures 4 and 5 show database setup, Figure 9 shows a local Nmap scan, Figure 61 shows a successful response, and Figure 63 shows a failed response. Original figure numbers preserve traceability.
 
-## Operating environment
+Visible addresses and sample passwords belong to the local training lab. Historical container screenshots show ports bound to all interfaces; use the loopback-only configuration in the [recreation guide](LAB_SETUP.md). A short attempt sequence does not establish the absence of throttling or lockout under every condition.
 
-![Docker version recorded in the report](evidence/docker-version.png)
+## Part 1 environment setup
 
-## Failed test login
+### Figure 1: Docker version on Ubuntu
 
-![DVWA failed authentication response](evidence/failed-login.png)
+![Report Figure 1: Docker version on Ubuntu](evidence/docker-version.png)
 
-The visible URL includes sample credentials for the intentionally vulnerable local lab. They are not credentials for a production account.
+### Figure 2: Historical container download and startup
 
-## Successful test login
+![Report Figure 2: Historical container download and startup](evidence/figure-02.png)
 
-![DVWA protected-area response](evidence/successful-login.png)
+### Figure 3: DVWA login page
 
-## Material excluded from publication
+![Report Figure 3: DVWA login page](evidence/figure-03.png)
 
-- Student IDs, contribution marks, and the original group cover sheet.
-- Raw Burp sessions, cookies, request exports, VM disks, and database dumps.
-- Other members' full assessment sections and screenshots outside the selected contribution.
+### Figure 4: Database setup checks
 
-The report contains additional Intruder evidence, but screenshots displaying session/request details were omitted from this public selection. The narrative is summarized in [the case study](CASE_STUDY.md); the public image set alone is not a complete reproduction record.
+![Report Figure 4: Database setup checks](evidence/figure-04.png)
+
+### Figure 5: Database setup and module navigation
+
+![Report Figure 5: Database setup and module navigation](evidence/figure-05.png)
+
+### Figure 6: Low security level selected
+
+![Report Figure 6: Low security level selected](evidence/figure-06.png)
+
+### Figure 7: Ubuntu and Docker network interfaces
+
+![Report Figure 7: Ubuntu and Docker network interfaces](evidence/figure-07.png)
+
+### Figure 8: Running container and published ports
+
+![Report Figure 8: Running container and published ports](evidence/figure-08.png)
+
+### Figure 9: Local service verification with Nmap
+
+![Report Figure 9: Local service verification with Nmap](evidence/figure-09.png)
+
+## Authentication assessment
+
+### Figure 60: Failed test login
+
+![Report Figure 60: Failed test login](evidence/failed-login.png)
+
+### Figure 61: Protected-area response in the browser
+
+![Report Figure 61: Protected-area response in the browser](evidence/figure-61.png)
+
+### Figure 62: Browser history of sample login attempts
+
+![Report Figure 62: Browser history of sample login attempts](evidence/figure-62.png)
+
+### Figure 63: Failed login with another sample password
+
+![Report Figure 63: Failed login with another sample password](evidence/figure-63.png)
+
+### Figure 64: Intruder password parameter position
+
+![Report Figure 64: Intruder password parameter position](evidence/figure-64-redacted.png)
+
+Cookie header redacted with a solid black box.
+
+### Figure 65: Intruder training payload list
+
+![Report Figure 65: Intruder training payload list](evidence/figure-65-redacted.png)
+
+Cookie header redacted with a solid black box.
+
+### Figure 66: Intruder results and response-length comparison
+
+![Report Figure 66: Intruder results and response-length comparison](evidence/figure-66.png)
+
+### Figure 67: Protected-area message in the successful response
+
+![Report Figure 67: Protected-area message in the successful response](evidence/figure-67.png)
+
+### Figure 68: Failed response and recorded attempt results
+
+![Report Figure 68: Failed response and recorded attempt results](evidence/figure-68.png)
+
+### Figure 69: Successful login confirmation
+
+![Report Figure 69: Successful login confirmation](evidence/successful-login.png)
+
+## Publication scope
+
+The full report, cover sheet, student identifiers, contribution marks, raw Burp sessions, request exports, VM disks, and database dumps are excluded. Other vulnerability assessments and the network-design section are outside this individual portfolio selection. See the [case study](CASE_STUDY.md) and [contribution statement](../CONTRIBUTIONS.md).
