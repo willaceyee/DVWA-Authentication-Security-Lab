@@ -8,7 +8,7 @@ Evaluate whether the DVWA Brute Force module in the assignment lab restricted re
 
 The supplied group report records an Ubuntu virtual machine, Docker, DVWA, a browser, and Burp Suite Intruder. Its local DVWA target used port 8080 and the reviewed brute-force screenshots show the Low security level. The Docker version evidence shows 28.2.2. These are historical observations, not a currently deployed public service.
 
-The portfolio covers Willace Yee's assigned VM/Docker environment work and brute-force login assessment. It does not attribute the team's proxy/network setup or other members' vulnerability assessments to him.
+The portfolio covers Willace Yee's full Part 1 environment setup and brute-force login assessment. Based on his clarification of the work performed, the setup includes Ubuntu, Docker, DVWA, the web server, networking, Burp/proxy configuration, and system verification. Other members' vulnerability assessments remain distinguished from this work.
 
 ## Recorded method
 

@@ -2,13 +2,13 @@
 
 **An Ubuntu and Docker lab exploring how weak login protections enable repeated password guessing.**
 
-This portfolio case study presents my contribution to a group web application security assessment for **NET3034 Ethical Hacking and Countermeasures Fundamentals**. I worked on the virtual machine/Docker operating environment and the DVWA brute-force login assessment.
+This portfolio case study presents my contribution to a group web application security assessment for **NET3034 Ethical Hacking and Countermeasures Fundamentals**. I completed the full Part 1 lab environment setup and the DVWA brute-force login assessment.
 
 [Case study](docs/CASE_STUDY.md) · [Evidence](docs/EVIDENCE.md) · [Lab recreation](docs/LAB_SETUP.md) · [Contributions](CONTRIBUTIONS.md)
 
 ## What I worked on
 
-- Prepared the Ubuntu virtual machine and Docker environment used by the team.
+- Independently set up the Part 1 environment: Ubuntu VM, Docker, DVWA, web server, networking, Burp/proxy configuration, and system verification.
 - Assessed the intentionally vulnerable DVWA login module using controlled password attempts and Burp Suite Intruder.
 - Compared failed and successful authentication responses and documented the lack of observed throttling or lockout during the recorded attempts.
 - Explained the account-takeover implications and recommended stronger authentication controls.
